@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    background: #989898;
+}
+.mat-toolbar-single-row {
+    height: 45px !important;
+    margin-left: 200px !important;
+    width: calc(100% - 200px) !important;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12)
+}
+.mat-nav-list {
+    padding-top: 0px !important;
+}
+.mat-drawer {
+    width: 200px;
+}
+.mat-list .mat-list-item, .mat-nav-list .mat-list-item, .mat-selection-list .mat-list-item {
+    color: rgba(0, 0, 0, 0.87) !important;
+    border-bottom: 1px solid #efefef;
+}
+.mat-drawer {
+    background-color: #ffffff;
+}
+.mat-drawer-container {
+    /* margin-top: 45px !important; */
+}
+.mat-drawer.mat-drawer-side {
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+.mat-toolbar.mat-primary {
+    background: rgb(77, 0, 90) !important;
+}
