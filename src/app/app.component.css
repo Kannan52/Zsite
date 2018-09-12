@@ -31,16 +31,45 @@
     flex: 1 0 auto;
   }
   .logo {
-    width: 200px;
     height: 45px;
+    text-align: center;
+    top: 0;
+    margin-right: 105px;
+    /* width: 200px; */
+    /* height: 45px;
     position: absolute;
     text-align:center;
+    border-bottom: 3px solid #f16d27;
     background: #000000;
     top: 0;
     box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+   */
   }
   .logo img {
-    width: 115px;
+    width: 90px;
+    height: 24px;
     position: relative;
-    top: 7px;
+    top: 11px;
+  }
+  .mat-drawer-container {
+    overflow: visible;
+  }
+  .profile {
+    /* text-align: center; */
+    padding: 15px;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+  }
+  .profile i {
+    padding : 5px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    color: white;
+  }
+  .profile span {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: -6px;
+    left: 7px;
   }
